@@ -1,22 +1,22 @@
 import 'package:flutter/material.dart';
 
-class sunSetting extends StatefulWidget{
+class sunNews extends StatefulWidget{
   @override
   State<StatefulWidget> createState() {
     // TODO: implement createState
     //throw UnimplementedError();
-    return sunSettingSon();
+    return sunNewsSon();
   }
 
 }
 
-class sunSettingSon extends State{
+class sunNewsSon extends State{
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
     //throw UnimplementedError();
     return Container(
-      child: Text("Setting页面,点击发布进来"),
+      child: Text("新闻"),
     );
   }
 
